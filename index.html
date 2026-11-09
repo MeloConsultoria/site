@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melo Consultoria — Engenharia de Avaliações</title>
+<meta name="description" content="Engenharia de avaliações de imóveis, vistorias de obra e de terreno. Empresa credenciada CAIXA, São Carlos – SP.">
+<style>
+  :root{
+    --paper:#F1F3F1; --surface:#FFFFFF; --ink:#10211F; --ink-2:#46564F; --ink-3:#77857E;
+    --line:#D3DAD6; --accent:#0F5B57; --accent-soft:#DCE9E6;
+    --display: Georgia, "Times New Roman", serif; --ui: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --paper:#0E1716; --surface:#152220; --ink:#E6ECE9; --ink-2:#B4C1BB; --ink-3:#8A9993;
+           --line:#2A3A37; --accent:#6FB3AC; --accent-soft:#1C3532; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:var(--ui); line-height:1.6}
+  .wrap{max-width:880px; margin:0 auto; padding:0 20px}
+  header{border-bottom:1px solid var(--line); background:var(--surface)}
+  header .wrap{display:flex; align-items:center; justify-content:space-between; padding-top:18px; padding-bottom:18px}
+  .marca{font-family:var(--display); font-size:22px; font-weight:700; color:var(--accent); text-decoration:none}
+  nav a{color:var(--ink-2); text-decoration:none; margin-left:20px; font-size:15px}
+  nav a:hover{color:var(--accent)}
+  .hero{padding:72px 0 48px}
+  h1{font-family:var(--display); font-size:clamp(30px,5vw,44px); line-height:1.15; margin:0 0 16px}
+  .hero p{font-size:18px; color:var(--ink-2); max-width:620px; margin:0}
+  .selo{display:inline-block; margin-bottom:18px; padding:4px 12px; border-radius:4px; background:var(--accent-soft);
+        color:var(--accent); font-size:13px; font-weight:600; letter-spacing:.3px}
+  h2{font-family:var(--display); font-size:26px; margin:0 0 20px}
+  section{padding:40px 0; border-top:1px solid var(--line)}
+  .grade{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px}
+  .card{background:var(--surface); border:1px solid var(--line); border-top:3px solid var(--accent); border-radius:4px; padding:20px}
+  .card h3{margin:0 0 8px; font-size:17px}
+  .card p{margin:0; color:var(--ink-2); font-size:15px}
+  .cod{font-family:ui-monospace, monospace; font-size:13px; color:var(--ink-3)}
+  .contato a{color:var(--accent); font-weight:600}
+  footer{border-top:1px solid var(--line); padding:28px 0 40px; color:var(--ink-3); font-size:14px}
+  footer a{color:var(--ink-3)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="marca" href="/">Melo Consultoria</a>
+    <nav><a href="#servicos">Serviços</a><a href="#contato">Contato</a></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="selo">Engenharia credenciada CAIXA</span>
+    <h1>Engenharia de avaliações de imóveis</h1>
+    <p>Vistorias e laudos de avaliação para financiamento habitacional, acompanhamento de obras e avaliação de terrenos, com atendimento no interior de São Paulo.</p>
+  </div>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="grade">
+      <div class="card"><span class="cod">A-413</span><h3>Avaliação de imóvel</h3><p>Vistoria e laudo de avaliação de imóveis urbanos para financiamento.</p></div>
+      <div class="card"><span class="cod">E-401</span><h3>Acompanhamento de obra</h3><p>Vistorias de medição e acompanhamento de obras financiadas.</p></div>
+      <div class="card"><span class="cod">B-438</span><h3>Avaliação de terreno</h3><p>Vistoria e avaliação de terrenos e lotes.</p></div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <p>E-mail: <a href="mailto:engenharia@meavaliacoes.com.br">engenharia@meavaliacoes.com.br</a><br>
+       São Carlos – SP</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    MELO ENGENHARIA E SOLUCOES IMOBILIARIAS LTDA (Melo Consultoria) · CNPJ 47.331.643/0001-81 · São Carlos – SP<br>
+    <a href="/privacidade.html">Política de privacidade</a>
+  </div>
+</footer>
+</body>
+</html>
